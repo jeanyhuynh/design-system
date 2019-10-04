@@ -1,0 +1,40 @@
+{
+  "name": "construct-design-system",
+  "version": "1.0.0",
+  "description": "Construct Digital's Design System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vuepress build",
+    "dev": "vuepress dev",
+    "local": "serve -s .vuepress/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.constructdigital.net:internal-projects/design-system.git"
+  },
+  "keywords": [
+    "Design",
+    "System",
+    "Construct",
+    "Digital",
+    "Bootstrap"
+  ],
+  "author": "Minh Le",
+  "license": "MIT",
+  "homepage": "https://code.constructdigital.net/internal-projects/design-system",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "path": "^0.12.7",
+    "popper.js": "^1.15.0",
+    "vue-clipboard2": "^0.3.0",
+    "vue-prism-component": "^1.1.1",
+    "vuepress": "^0.14.10"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "serve": "^11.0.2"
+  }
+}
